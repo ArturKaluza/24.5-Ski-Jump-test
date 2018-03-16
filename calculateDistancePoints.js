@@ -20,5 +20,3 @@ const calculateDistancePoints = (distance, hillSize, kPoint) => {
   
 module.exports = calculateDistancePoints;
 
-console.log(calculateDistancePoints(123, 34, 120));
-console.log(calculateDistancePoints(123, 'normal', 120));
