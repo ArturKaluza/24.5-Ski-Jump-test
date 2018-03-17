@@ -1,5 +1,5 @@
 const assert = require('assert');
-const calculateStylePoints = require('./calculateStylePoints');
+const calculateStylePoints = require('../calculateStylePoints');
 
 describe('Style points', () => {
     describe('Sum', ()=> {

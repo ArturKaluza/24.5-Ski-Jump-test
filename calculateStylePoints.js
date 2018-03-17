@@ -15,7 +15,6 @@ const calculateStylePoints = (styleNotes) => {
   note.pop();
   note.shift();
   return note.reduce((sum, total) => sum + total, 0);
-    
 };
   
 module.exports = calculateStylePoints;

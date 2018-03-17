@@ -1,5 +1,5 @@
 const assert = require('assert');
-const calculateDistancePoints = require('./calculateDistancePoints');
+const calculateDistancePoints = require('../calculateDistancePoints');
 
 describe('Distance Pionts', () => {
     describe('hillSize', () => {

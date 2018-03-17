@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha calculateTotalPoints.js",
-    "test:watch": "mocha -w calculateTotalPoints.test.js",
-    "test:Dist": "mocha -w calculateDistancePoints.test.js",
-    "test:Styl": "mocha -w calculateStylePoints.test.js"
-
+    "test": "mocha test/calculateDistancePoints.test.js test/calculateStylePoints.test.js test/calculateTotalPoints.test.js",
+    "test:Tot": "mocha -w test/calculateTotalPoints.test.js",
+    "test:Dist": "mocha -w test/calculateDistancePoints.test.js",
+    "test:Styl": "mocha -w test/calculateStylePoints.test.js"
+    
   },
   "keywords": [],
   "author": "",
